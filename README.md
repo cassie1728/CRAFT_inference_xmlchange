@@ -15,3 +15,7 @@
 将txt格式坐标转换为json格式，使其可以在labelme中查看并修正。
 
 ps：网上几乎没有txt转json的标准代码，保存一下以便后续使用。
+
+#### 3. change_int.py
+
+将float型坐标转换为int型，避免训练时报错。
